@@ -1,11 +1,8 @@
 def main():	
-	dave()
+	dave(5)
 	
-def dave():
-	for i in range(20):
+def dave(a):
+	for i in range(a,20+1):
 		print(i, end=" ") 
 	print()
- 
- 
- 
 if __name__ == "__main__": main()
