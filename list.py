@@ -6,5 +6,8 @@ def main():
 	y.append(4)
 	y.insert(2,8)
 	print(type(y), y)
-
+	
+	z = "davidds is a good boy"
+	for i in z:
+		print (i)
 if __name__ == "__main__" : main()
