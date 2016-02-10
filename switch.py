@@ -7,6 +7,6 @@ def main():
 	)
 
 	v = 'three'
-	print(choice[v])
+	print(choice.get(v, 'put in a valid number'))
 
 if __name__ == "__main__":main()
