@@ -6,7 +6,7 @@ def main():
 		four = 'four'
 	)
 
-	v = 'three'
+	v = 'one'
 	print(choice.get(v, 'put in a valid number'))
 
 if __name__ == "__main__":main()
