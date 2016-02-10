@@ -5,7 +5,7 @@ def main():
 	
 	)
 	
-	for k in d:
+	for k in sorted(d.keys()):
 		print(k, d[k])
 		
 if __name__== "__main__": main()
